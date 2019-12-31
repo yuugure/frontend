@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Redux example
 
 ## Deploy your own
@@ -58,3 +59,7 @@ All components have access to the redux store using `useSelector`, `useDispatch`
 On the server side every request initializes a new store, because otherwise different user data can be mixed up. On the client side the same store is used, even between page changes.
 
 The example under `components/counter.js`, shows a simple incremental counter implementing a common Redux pattern of mapping state to props. Again, the first render is happening in the server and instead of starting the count at 0, it will dispatch an action in redux that starts the count at 1. This continues to highlight how each navigation triggers a server render first and then a client render when switching pages on the client side.
+=======
+# frontend
+frontend develop
+>>>>>>> origin/master
